@@ -120,13 +120,6 @@ input:focus-visible {
     outline: none;
 }
 
-/* codepen */
-
-
-/* .awesome-form {
-    padding: 100px;
-    -webkit-font-smoothing: antialiased
-} */
 
 select {
     -webkit-appearance: none;

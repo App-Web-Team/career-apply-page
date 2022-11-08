@@ -1,12 +1,8 @@
 <head>
+    <link rel="stylesheet" href="assets/styles/style-form.css">
     <link rel="stylesheet" href="assets/styles/style-form-3.css">
 </head>
 
-<!-- <div class="contact-container">
-    <form action="#"> -->
-<!-- <p class="touch-text fw-bold">
-            Get in Touch
-        </p> -->
 <p class="details-heading experience-text text-capitalize">
     experience grounds
 </p>
@@ -66,13 +62,3 @@
     </div>
 </div>
 
-
-<!-- <div class="form-row d-flex justify-content-center">
-            <div class="form-row submit-btn">
-                <div class="input-data">
-                    <button type="button" class="submit-button btn btn-danger">Submit</button>
-                </div>
-            </div>
-        </div> -->
-<!-- </form>
-</div> -->

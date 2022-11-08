@@ -1,15 +1,8 @@
 <head>
+    <link rel="stylesheet" href="assets/styles/style-form.css">
     <link rel="stylesheet" href="assets/styles/style-form-4.css">
 </head>
 
-<!-- <div class="contact-container">
-    <form action="#"> -->
-<!-- <p class="touch-text fw-bold">
-            Get in Touch
-        </p> -->
-<!-- <p class="details-heading text-capitalize">
-    personal details
-</p> -->
 <div class="form-row text-left mt-4 mb-4">
     <div class="d-flex flex-row">
         <div class="input-data">
@@ -39,14 +32,3 @@
 </div>
 
 
-
-
-<!-- <div class="form-row d-flex justify-content-center">
-            <div class="form-row submit-btn">
-                <div class="input-data">
-                    <button type="button" class="submit-button btn btn-danger">Submit</button>
-                </div>
-            </div>
-        </div> -->
-<!-- </form>
-</div> -->

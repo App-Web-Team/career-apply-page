@@ -78,6 +78,20 @@ form .form-row .input-data {
     transform: scale(1);
 }
 
+.add-btn {
+    color: var(--primary-color) !important;
+    border: 2px solid var(--primary-color) !important;
+    background-color: transparent !important;
+    font-weight: bold !important;
+}
+
+.please-text {
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: bold;
+    width: max-content;
+}
+
 .submit-button {
     background-color: var(--secondary-color) !important;
     font-weight: bold;

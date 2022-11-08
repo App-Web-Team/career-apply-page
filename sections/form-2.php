@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="assets/styles/style-form-1.css">
+    <link rel="stylesheet" href="assets/styles/style-form-2.css">
 </head>
 
 <!-- <div class="contact-container">
@@ -15,12 +15,12 @@
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">first Name</label>
+            <label for="">degree</label>
         </div>
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">last Name</label>
+            <label for="">college</label>
         </div>
     </div>
 </div>
@@ -29,64 +29,40 @@
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">phone no.</label>
+            <label for="">year <span class="text-lowercase">of</span> graduation</label>
         </div>
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">email id</label>
-        </div>
-    </div>
-</div>
-<div class="form-row text-left mb-4">
-    <div class="">
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">address</label>
+            <label for="">
+                <span class="text-uppercase">cgpa</span> / percentage
+            </label>
         </div>
     </div>
 </div>
 <div class="form-row text-left mb-4">
     <div class="d-flex flex-row">
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">state</label>
-        </div>
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">pincode</label>
-        </div>
+        <button class="btn add-btn text-capitalize ml-3">+ add</button>
     </div>
 </div>
+<p class="please-text ml-3 mb-4">Please list out all the certification throughout the years</p>
 <div class="form-row text-left mb-4">
     <div class="d-flex flex-row">
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">father's name</label>
+            <label for="">certifications</label>
         </div>
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">father's occupation</label>
+            <label for="">year</label>
         </div>
     </div>
 </div>
 <div class="form-row text-left mb-4">
     <div class="d-flex flex-row">
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">mother's name</label>
-        </div>
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">mother's occupation</label>
-        </div>
+        <button class="btn add-btn text-capitalize ml-3">+ add</button>
     </div>
 </div>
 

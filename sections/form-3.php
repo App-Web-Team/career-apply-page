@@ -7,20 +7,20 @@
 <!-- <p class="touch-text fw-bold">
             Get in Touch
         </p> -->
-<p class="details-heading text-capitalize">
-    experience
+<p class="details-heading experience-text text-capitalize">
+    experience grounds
 </p>
 <div class="form-row text-left mt-4 mb-4">
     <div class="d-flex flex-row">
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">first Name</label>
+            <label for="">Designation</label>
         </div>
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">last Name</label>
+            <label for="">Company Name</label>
         </div>
     </div>
 </div>
@@ -29,64 +29,40 @@
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">phone no.</label>
+            <label for="">Experience</label>
         </div>
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">email id</label>
-        </div>
-    </div>
-</div>
-<div class="form-row text-left mb-4">
-    <div class="">
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">address</label>
+            <label for="">
+                <span class="text-uppercase">CTC</span>
+            </label>
         </div>
     </div>
 </div>
 <div class="form-row text-left mb-4">
     <div class="d-flex flex-row">
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">state</label>
-        </div>
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">pincode</label>
-        </div>
+        <button class="btn add-btn text-capitalize ml-3">+ add</button>
     </div>
 </div>
+<p class="please-text ml-3 mb-4">Please list out all the prof. skills you used throughout the years</p>
 <div class="form-row text-left mb-4">
     <div class="d-flex flex-row">
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">father's name</label>
+            <label for="">skills</label>
         </div>
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>
-            <label for="">father's occupation</label>
+            <label for="">years <span class="text-lowercase">in practice</span></label>
         </div>
     </div>
 </div>
 <div class="form-row text-left mb-4">
     <div class="d-flex flex-row">
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">mother's name</label>
-        </div>
-        <div class="input-data">
-            <input type="text" required>
-            <div class="underline"></div>
-            <label for="">mother's occupation</label>
-        </div>
+        <button class="btn add-btn text-capitalize ml-3">+ add</button>
     </div>
 </div>
 

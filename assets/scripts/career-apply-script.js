@@ -18,6 +18,9 @@ $(".first").click(function (event) {
     // $(".container").removeClass("fourth-dot initial-active-area");
     $(".container").addClass("second-dot second-active-area");
 
+    $(".side-icons div:first").removeClass("first-icon active");
+    $(".side-icons div:nth-child(2)").addClass("second-icon active");
+
     // Stop the button from performing it's default task
     event.preventDefault();
 });
@@ -26,6 +29,10 @@ $(".first").click(function (event) {
 $(".second").click(function (event) {
     $(".container").removeClass("second-dot second-active-area initial-active-area");
     $(".container").addClass("third-dot third-active-area");
+
+    $(".side-icons div:nth-child(2)").removeClass("second-icon active");
+    $(".side-icons div:nth-child(3)").addClass("third-icon active");
+
     $tagsval = $tags.val();
     // Check if the value of tags field is empty
     if ($tagsval == "") {
@@ -40,6 +47,10 @@ $(".second").click(function (event) {
 $(".third").click(function (event) {
     $(".container").removeClass("third-dot third-active-area");
     $(".container").addClass("fourth-dot fourth-active-area");
+
+    $(".side-icons div:nth-child(3)").removeClass("third-icon active");
+    $(".side-icons div:nth-child(4)").addClass("fourth-icon active");
+
     $tagsval = $tags.val();
     // Check if the value of tags field is empty
     if ($tagsval == "") {

@@ -6,7 +6,10 @@
     font-family: 'Poppins', sans-serif;
 } */
 
-
+.experience-text {
+    width: max-content;
+    /* color: var(--secondary-color); */
+}
 .contact-container {
     /* display: flex;
     align-items: center;

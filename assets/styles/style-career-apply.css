@@ -3,6 +3,11 @@
     font-family: 'Roboto', sans-serif;
 } */
 
+/* .fa-circle {
+    border: 2px solid var(--secondary-color);
+    border-radius: 100px;
+} */
+
 .center-div {
     position: absolute;
     margin-left: 22%;
@@ -21,8 +26,8 @@
     /* change container height here */
     height: 550px;
     width: 800px;
-    background-color: #fff;
-    padding: 20px;
+    /* background-color: #fff; */
+    /* padding: 20px; */
     overflow: hidden;
     margin-top: 25%;
     /* width: 100%; */
@@ -33,9 +38,29 @@
 
 .side-icons .fa-solid {
     color: var(--primary-color);
-    font-size: 50px;
-    margin-bottom: 50px;
+    /* font-size: 50px; */
+    /* margin-bottom: 50px; */
 }
+
+.side-icons span {
+    margin: auto;
+    /* margin-top: 30%; */
+    /* padding: 50px 100px; */
+}
+
+.active {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px 0px 0px 20px;
+}
+.active .text-white {
+    color: var(--secondary-color) !important;
+}
+.active .fa-solid {
+    color: #fff;
+}
+/* .fa-stack {
+    
+} */
 
 /* end - my side icon styles */
 
@@ -97,6 +122,12 @@
     text-align: center;
 }
 
+.form-bg {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 0px 20px 20px 0px;
+    /* opacity: 0.4; */
+}
+
 /* .submission [type="text"] {
     width: 62%;
     margin-right: 14%;
@@ -116,13 +147,14 @@
     border: 1px solid #ddd;
 } */
 
-.submission button {
+.submission button:not(.add-btn) {
     display: inline-block;
     text-decoration: none;
     background: var(--secondary-color);
     border: none;
     color: white;
     padding: 10px 25px;
+    width: max-content;
     font-size: 1em;
     border-radius: 6px;
     cursor: pointer;
@@ -135,7 +167,7 @@
 } */
 
 .next {
-    margin-left: 70%;
+    margin-left: 60%;
 }
 
 .add-mr-form {

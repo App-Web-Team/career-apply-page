@@ -6,8 +6,8 @@
     <div id="questionsdiv" class="questions-container">
         <div class="container initial-active-area">
             <div class="row">
-                <div class="col-lg-3 text-center p-0">
-                    <div class="side-icons line d-flex flex-column">
+                <div class="col-md-3 text-center p-0">
+                    <div class="side-icons line d-flex flex-md-column">
                         <div class="p-4 first-icon active">
                             <span class="fa-stack fa-2x">
                                 <i class="fa fa-circle fa-stack-2x text-white"></i>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form-bg col-lg-9 pt-3">
+                <div class="form-bg col-md-9 pt-3">
                     <div class="steps-wrapper">
                         <div class="question-submission">
                             <form class="submission first-step add-mr-form mb-2">

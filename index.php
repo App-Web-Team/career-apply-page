@@ -22,7 +22,9 @@
     // header section
     include "sections/header-section.php";
     // apply apply section
-    include "sections/career-apply-section.php"  
+    include "sections/career-apply-section.php";
+    // footer section
+    include "sections/footer.php";
     ?>
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
     <script src="assets/scripts/career-apply-script.js"></script>

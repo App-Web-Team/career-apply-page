@@ -35,7 +35,7 @@
 } */
 
 @media screen and (max-width: 768px) {
-    /* .fullscreen, .gradient-background {
-        height: 110vh;
-    } */
+    .fullscreen, .gradient-background {
+        height: 170vh;
+    }
 }

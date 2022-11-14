@@ -20,4 +20,11 @@ body {
     font-family: 'Noto Sans';
     color: var(--primary-color);
     overflow-x: hidden;
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: var(--primary-color);
+    }
 }

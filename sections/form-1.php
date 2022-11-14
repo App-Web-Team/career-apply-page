@@ -6,7 +6,7 @@
     personal details
 </p>
 <div class="form-row text-left mt-4 mb-4">
-    <div class="d-flex flex-row">
+    <div class="fix-height d-flex flex-row">
         <div class="input-data">
             <input type="text" required>
             <div class="underline"></div>

@@ -39,7 +39,7 @@
                 <div class="form-bg col-md-9 pt-3">
                     <div class="steps-wrapper">
                         <div class="question-submission">
-                            <form class="submission first-step add-mr-form mb-2">
+                            <form class="submission first-step add-mr-form mb-2 ml-3">
                                 <?php
                                 include "sections/form-1.php";
                                 ?>

@@ -164,6 +164,10 @@ select {
     .input-group label {
         left: 1%;
     }
+/* 
+    .d-flex {
+        height: 100px !important;
+    } */
 }
 
 
